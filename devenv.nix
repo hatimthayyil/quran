@@ -1,4 +1,11 @@
-_: {
+{ pkgs, ... }: {
+
+  packages = [
+    pkgs.bacon
+    pkgs.cargo-nextest
+    pkgs.cargo-workspaces
+  ];
+
   languages.rust.enable = true;
 
   treefmt = {
