@@ -30,4 +30,4 @@ nix profile upgrade quran
 
 Tanzil Quran Text (Uthmani and Simple Clean, Version 1.1) by the Tanzil
 Project, <https://tanzil.net>, CC BY 3.0, embedded verbatim. See
-`ATTRIBUTIONS.md` and `quran --license`.
+`crates/quran/ATTRIBUTIONS.md` and `quran --license`.

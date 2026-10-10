@@ -19,8 +19,8 @@ impl Text {
     #[must_use]
     pub fn source(self) -> &'static str {
         match self {
-            Self::Uthmani => include_str!("../../../data/tanzil/quran-uthmani.xml"),
-            Self::SimpleClean => include_str!("../../../data/tanzil/quran-simple-clean.xml"),
+            Self::Uthmani => include_str!("../data/tanzil/quran-uthmani.xml"),
+            Self::SimpleClean => include_str!("../data/tanzil/quran-simple-clean.xml"),
         }
     }
 

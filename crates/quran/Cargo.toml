@@ -1,8 +1,13 @@
 [package]
 name = "quran"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2024"
-license = "CC0-1.0"
+description = "Print Quranic text for a reference query"
+license = "CC0-1.0 AND CC-BY-3.0"
+repository = "https://github.com/hatimthayyil/quran"
+readme = "../../README.md"
+keywords = ["quran", "arabic", "cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.6.6", features = ["derive"] }

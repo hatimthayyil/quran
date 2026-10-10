@@ -28,13 +28,12 @@
                 ./Cargo.toml
                 ./Cargo.lock
                 ./crates
-                ./data
               ];
             };
             cargoLock.lockFile = ./Cargo.lock;
             meta = {
               description = "Print Quranic text for a reference query";
-              license = lib.licenses.cc0;
+              license = with lib.licenses; [ cc0 cc-by-30 ];
               mainProgram = "quran";
             };
           };
